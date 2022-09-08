@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../imgs/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    background-color: #fff;
+    width: 70%;
+    height: 500px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
