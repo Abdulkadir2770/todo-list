@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_
   \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"pageLoad\": () => (/* binding */ pageLoad)\n/* harmony export */ });\nconst pageLoad = (() => {\r\n    const container = document.querySelector(\".container\");\r\n\r\n    container.innerHTML = `\r\n        <div class=\"item one\">one</div>\r\n        <div class=\"item two\">two</div>\r\n    `;\r\n})();\r\n\r\n\n\n//# sourceURL=webpack://todo-list/./src/js-files/onPageLoad.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"pageLoad\": () => (/* binding */ pageLoad)\n/* harmony export */ });\nconst pageLoad = (() => {\r\n    const container = document.querySelector(\".container\");\r\n\r\n    container.innerHTML = `\r\n        <div class=\"item one\">\r\n            <div>One</div>\r\n            <div>two</div>\r\n            <div>three</div>\r\n            <div>Add</div>\r\n        </div>\r\n        <div class=\"item two\">\r\n            <div>Apple</div>\r\n            <div>Input field</div>\r\n            <div>Bananas</div>\r\n        </div>\r\n    `;\r\n})();\r\n\r\n\n\n//# sourceURL=webpack://todo-list/./src/js-files/onPageLoad.js?");
 
 /***/ })
 
