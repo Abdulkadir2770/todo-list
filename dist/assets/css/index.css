@@ -14,14 +14,22 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 30% 70%;
     grid-template-rows: auto;
     background-color: #fff;
     width: 70%;
     height: 500px;
     border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+.one {
+    background-color: #f1efef;
+}
+
+.two {
+    background-color: azure;
 }
