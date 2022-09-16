@@ -20,13 +20,21 @@ const pageLoad = (() => {
         </div>
         <div class="subContainerItem two">
             <div>
-                <h2>General</list>
+                <form>
+                    <input id="inputField" placeholder="Enter Item here"/>
+                    <button id="button" type="button">Submit</button>
+                </form>
             </div>
-            <div class="addTodoBtn">
-                <button id="allBtn">All</button>
-                <button id="createBtn">+ Create Todo</button>
+            <hr>
+            <div class="displayedItem">
+                <div class="todoItems">
+                    <div id="text">Bananas</div>
+                    <div>
+                        <button id="completed">Completed</button>
+                        <button id="trash">Trash</button>
+                    </div>
+                </div>
             </div>
-            <div>Bananas</div>
         </div>
     `;
 })();
