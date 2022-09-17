@@ -118,7 +118,7 @@ hr {
     margin-right: 5px;
 }
 
-.general {
+.currentTab {
     background-color: #36e6e6;
     width: 200px;
     border-radius: 10px;
@@ -128,6 +128,6 @@ hr {
     -o-border-radius: 10px;
 }
 
-.general:hover {
+.currentTab:hover {
     background-color: #90ee90;
 }

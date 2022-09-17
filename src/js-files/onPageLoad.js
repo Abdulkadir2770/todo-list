@@ -37,6 +37,9 @@ const pageLoad = (() => {
             </div>
         </div>
     `;
+
+    const general = document.querySelector(".general");
+    general.classList.add("currentTab");
 })();
 
 export {pageLoad};

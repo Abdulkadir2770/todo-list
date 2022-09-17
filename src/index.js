@@ -1,5 +1,7 @@
 import { pageLoad } from "./js-files/onPageLoad";
 import { addList } from "./js-files/addList";
+import { completedTasks } from "./js-files/completed";
+import { trashedTasks } from "./js-files/trash";
 
 const pageContent = (() => {
     const container = document.querySelector(".container");
@@ -10,14 +12,14 @@ const pageContent = (() => {
         console.log("General tab has been clicked");
    })
 
-   const completedTab = document.querySelector(".completed");
+   const completedTab = document.querySelector("#completed");
    completedTab.addEventListener("click", () => {
-        console.log("Completed tab has been clicked");
+        console.log("Completed button has been clicked");
    })
 
-   const trashTab = document.querySelector(".trash");
+   const trashTab = document.querySelector("#trash");
    trashTab.addEventListener("click", () => {
-        console.log("Trash tab has been clicked");
+        console.log("Trash button has been clicked");
    })
 
 })();
