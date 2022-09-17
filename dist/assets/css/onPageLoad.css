@@ -117,3 +117,17 @@ hr {
     width: 100px;
     margin-right: 5px;
 }
+
+.general {
+    background-color: #36e6e6;
+    width: 200px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.general:hover {
+    background-color: #90ee90;
+}
