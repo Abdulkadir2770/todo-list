@@ -4,7 +4,7 @@ const pageLoad = (() => {
     container.innerHTML = `
         <div class="subContainerItem one">
             <h1>Shopping List</h1>
-            <div>
+            <div id="tabs">
                 <h3 class="items general">General List</h3>
                 <br>
                 <h3 class="items completed">Completed</h3>

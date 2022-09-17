@@ -3,8 +3,7 @@ const trashedTasks = (() => {
     
     trashTab.addEventListener("click", () => {
         trashTab.addEventListener("click", () => {
-            
-
+           
             const sectionTwo = document.querySelector(".two");
             
             sectionTwo.innerHTML = `
