@@ -6,16 +6,13 @@ import { trashedTasks } from "./js-files/trash";
 const pageContent = (() => {
     const container = document.querySelector(".container");
 
-    // the two <div> items
-   const generalTab = document.querySelector(".general");
-   generalTab.addEventListener("click", () => {
-        console.log("General tab has been clicked");
-   })
-
-   const completedTab = document.querySelector("#completed");
-   completedTab.addEventListener("click", () => {
-        console.log("Completed button has been clicked");
-   })
+//    const completedTab = document.querySelector("#completed");
+//    completedTab.addEventListener("click", () => {
+//         const rmElement = document.querySelector(".todoItems");
+//         console.log(rmElement);
+//         const addElementToCompleted = document.querySelector("#completedListTwo");
+//         console.log(addElementToCompleted);
+//      });
 
    const trashTab = document.querySelector("#trash");
    trashTab.addEventListener("click", () => {
